@@ -3,12 +3,40 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-html * {
-  font-family: "Roboto", sans-serif;
+.header__container {
+  margin: 36px 160px 200px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
-
-body {
-  overflow-x: hidden;
+.header__container .header__nav {
+  padding-right: 200px;
+}
+.header__container .header__nav .header__ul {
+  list-style: none;
+  display: flex;
+  gap: 56px;
+}
+.header__container .header__nav .header__ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #2E2F38;
+}
+.header__container .header__aside-ul {
+  display: flex;
+  gap: 27px;
+  list-style: none;
+}
+.header__container .header__aside-ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.header__container .header__aside-ul li a.red {
+  background-color: #FA504D;
+  padding: 10.5px 39px;
 }/*# sourceMappingURL=style.css.map */

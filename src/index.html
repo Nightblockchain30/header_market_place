@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="The fourth volume of the HTML & CSS HeaderSaga 💻">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
+
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -15,13 +19,46 @@
 <body>
   <header>
     <div class="header__container">
+      <a href="#" class="header__a">
+        <img src="img/logo.svg" alt="logo" class="header__img">
+      </a>
+
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li><a href="#">Market</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Galerry</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+
+      <aside class="header__aside">
+        <ul class="header__aside-ul">
+          <li><a href="#">Sign Up</a></li>
+          <li><a class="red" href="#">Sign In</a></li>
+        </ul>
+      </aside>
       
     </div>
   </header>
 
   <main>
     <div class="main__container">
+      <div class="hero">
+        <h1 class="hero__h1">The largest NFT market with exceptional items on the bid</h1>
+        <img class="hero__circle" src="img/vector.svg" alt="circle">
+        <p class="hero__p"><span>Collec</span>tible and non-fungible tokens in your hands</p>
+        <div class="hero__butttons">
+          <button class="hero__buttons-left">Explore</button>
+          <a href="#">Learn more</a>
+          <img src="img/arrow.svg" alt="arrow">
+        </div>
+      </div>
 
+      <div class="feature">
+        <img src="img/img1.png" alt="img" class="feature-img">
+        <img src="img/img2.png" alt="img" class="feature-img img2">
+      </div>
     </div>
   </main>
 
