@@ -87,10 +87,13 @@ body {
 }
 
 .container__nft {
+  position: relative;
   display: inline-block;
   background-color: rgba(150, 136, 136, 0.961);
 }
 .container__nft .container__nft-description {
+  position: absolute;
+  top: 570px;
   background-color: green;
   padding: 32px;
 }
