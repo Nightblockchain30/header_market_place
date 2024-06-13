@@ -1,11 +1,11 @@
 .header__container{
-    margin: 36px 160px 200px 160px;
+    margin: 36px 160px 127px 160px;
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     .header__nav{
-        padding-right: 200px;
+        padding-right: 600px;
         .header__ul{
             @include formart_list();
             li a{
@@ -28,7 +28,7 @@
             }
             li a.red {
                 background-color: $red;
-                padding:10.5px 39px;
+                padding:15.5px 39px;
             }
         }
     }

@@ -1,0 +1,47 @@
+.container__nft{
+    display: inline-block;
+    background-color: rgba(150, 136, 136, 0.961);
+    .container__nft-description{
+        background-color: green;
+        padding: 32px;
+        .description__row1{
+            display: flex;
+            align-items: center;
+            .description__row1-grid{
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: 1fr 1fr;
+                align-items: left;
+                justify-items: center;
+                column-gap: 300px;
+                padding-left: 16px;
+                p{
+                    font-size: 18px;
+                }
+                p.bold{
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+
+            }
+        }
+
+        .description__row2{
+            margin-top: 56px;
+            display: flex;
+            justify-items: space-between;
+            align-items: center;
+            & a:nth-child(1){
+                background-color: $red;
+                padding: 10.5px 95.5px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            & a:nth-child(2){
+                text-decoration: none;
+                font-weight: 600;
+                color: $red;
+            }
+        }
+    }
+}
