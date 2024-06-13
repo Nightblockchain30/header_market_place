@@ -5,7 +5,7 @@
     .container__nft-description{
         position: absolute;
         top: 570px;
-        background-color: green;
+        background-color: #FFFFFF;
         padding: 32px;
         .description__row1{
             display: flex;
@@ -15,15 +15,16 @@
                 grid-template-rows: 1fr 1fr;
                 grid-template-columns: 1fr 1fr;
                 align-items: left;
-                justify-items: center;
-                column-gap: 300px;
+                column-gap: 250px;
                 padding-left: 16px;
                 p{
                     font-size: 18px;
+                    color:$grey;
                 }
                 p.bold{
                     font-weight: 600;
                     font-size: 24px;
+                    color: $black;
                 }
 
             }
@@ -32,11 +33,11 @@
         .description__row2{
             margin-top: 56px;
             display: flex;
-            justify-items: space-between;
+            justify-content: space-between;
             align-items: center;
             & a:nth-child(1){
                 background-color: $red;
-                padding: 10.5px 95.5px;
+                padding: 14px 95.5px;
                 color: #FFFFFF;
                 text-decoration: none;
             }
@@ -44,7 +45,32 @@
                 text-decoration: none;
                 font-weight: 600;
                 color: $red;
+                padding-right: 120px;
+                font-size: 18px;
             }
+        }
+    }
+    .container__nft-numbers{
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        column-gap: 72px;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            P{
+                color: #FFFFFF;
+                text-align: center;
+            }
+        }
+
+        p span{
+            color: $red;
+            font-weight: 600;
+            font-size: 32px;
         }
     }
 }

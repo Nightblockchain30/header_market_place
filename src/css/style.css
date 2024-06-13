@@ -94,7 +94,7 @@ body {
 .container__nft .container__nft-description {
   position: absolute;
   top: 570px;
-  background-color: green;
+  background-color: #FFFFFF;
   padding: 32px;
 }
 .container__nft .container__nft-description .description__row1 {
@@ -106,26 +106,27 @@ body {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   align-items: left;
-  justify-items: center;
-  column-gap: 300px;
+  column-gap: 250px;
   padding-left: 16px;
 }
 .container__nft .container__nft-description .description__row1 .description__row1-grid p {
   font-size: 18px;
+  color: #8E8E8E;
 }
 .container__nft .container__nft-description .description__row1 .description__row1-grid p.bold {
   font-weight: 600;
   font-size: 24px;
+  color: #2E2F38;
 }
 .container__nft .container__nft-description .description__row2 {
   margin-top: 56px;
   display: flex;
-  justify-items: space-between;
+  justify-content: space-between;
   align-items: center;
 }
 .container__nft .container__nft-description .description__row2 a:nth-child(1) {
   background-color: #FA504D;
-  padding: 10.5px 95.5px;
+  padding: 14px 95.5px;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -133,4 +134,28 @@ body {
   text-decoration: none;
   font-weight: 600;
   color: #FA504D;
+  padding-right: 120px;
+  font-size: 18px;
+}
+.container__nft .container__nft-numbers {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  column-gap: 72px;
+}
+.container__nft .container__nft-numbers div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container__nft .container__nft-numbers div P {
+  color: #FFFFFF;
+  text-align: center;
+}
+.container__nft .container__nft-numbers p span {
+  color: #FA504D;
+  font-weight: 600;
+  font-size: 32px;
 }/*# sourceMappingURL=style.css.map */
