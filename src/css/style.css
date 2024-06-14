@@ -124,6 +124,7 @@ body {
   font-weight: 400;
   font-family: "Belgrano", serif;
   margin-bottom: 24px;
+  color: #2E2F38;
 }
 .main__container .feature__content-img1 {
   grid-area: left;
@@ -180,7 +181,9 @@ body {
   color: #2E2F38;
 }
 .container__nft .container__nft-description .description__row2 {
-  margin-top: 56px;
+  border-top: 1px solid black;
+  padding-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;

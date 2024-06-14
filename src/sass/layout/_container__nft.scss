@@ -46,7 +46,9 @@
         }
 
         .description__row2{
-            margin-top: 56px;
+            border-top: 1px solid black;
+            padding-top: 30px;
+            margin-top: 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -84,8 +86,6 @@
                 text-align: center;
                 font-weight: 100;
                 font-size: 20px;
-
-
             }
         }
 
