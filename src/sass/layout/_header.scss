@@ -5,13 +5,16 @@
     align-content: center;
     align-items: center;
     .header__nav{
-        padding-right: 600px;
+        padding-right: 490px;
         .header__ul{
             @include formart_list();
             li a{
                 text-decoration: none;
                 font-size: 18px;
                 color: $black;
+                &:hover{
+                    color: $red;
+                }
             }
         }
     }

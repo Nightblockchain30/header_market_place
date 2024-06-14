@@ -14,7 +14,7 @@
   align-items: center;
 }
 .header__container .header__nav {
-  padding-right: 600px;
+  padding-right: 490px;
 }
 .header__container .header__nav .header__ul {
   list-style: none;
@@ -25,6 +25,9 @@
   text-decoration: none;
   font-size: 18px;
   color: #2E2F38;
+}
+.header__container .header__nav .header__ul li a:hover {
+  color: #FA504D;
 }
 .header__container .header__aside-ul {
   display: flex;
@@ -70,19 +73,63 @@ body {
   left: 132px;
 }
 .main__container .hero__p {
-  font-size: 24px;
+  font-size: 28px;
   color: #8E8E8E;
   margin-bottom: 40px;
 }
 .main__container .hero__p span {
   text-decoration: underline solid #FA504D 15%;
 }
-.main__container .feature {
-  display: inline-flex;
+.main__container .hero .hero__butttons {
+  display: flex;
   column-gap: 32px;
+}
+.main__container .hero .hero__butttons .hero__buttons-left button {
+  display: inline-block;
+  background-color: red;
+  color: #FFFFFF;
+  padding: 16.5px 86.5px;
+  border: 0px;
+  font-size: 18px;
+}
+.main__container .hero .hero__butttons .hero__buttons-left button:hover {
+  transform: scale(1.1);
+  background-color: #2E2F38;
+  cursor: pointer;
+}
+.main__container .hero .hero__butttons .hero__buttons-right {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}
+.main__container .hero .hero__butttons .hero__buttons-right a {
+  min-width: 90px;
+  color: #2E2F38;
+}
+.main__container .hero .hero__butttons .hero__buttons-right a:hover {
+  cursor: pointer;
+  color: #FA504D;
+}
+.main__container .feature__content {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "head head" "left right";
   margin-bottom: 57px;
 }
-.main__container .feature-img {
+.main__container .feature__content-h3 {
+  grid-area: head;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Belgrano", serif;
+  margin-bottom: 24px;
+}
+.main__container .feature__content-img1 {
+  grid-area: left;
+  max-width: 400px;
+}
+.main__container .feature__content-img2 {
+  grid-area: right;
   max-width: 400px;
 }
 
