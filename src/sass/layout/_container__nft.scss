@@ -2,6 +2,15 @@
     position: relative;
     display: inline-block;
     // background-color: rgba(150, 136, 136, 0.961);
+    .container__nft__p-background{
+        font-size:280px ;
+        color: #373740;
+        font-family: $second-font;
+        position: absolute;
+        rotate: 90deg;
+        top: 210px;
+        left: 188px;
+    }
     .container__nft-img{
         position: absolute;
         bottom: 260px;

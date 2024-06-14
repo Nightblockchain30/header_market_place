@@ -138,6 +138,15 @@ body {
   position: relative;
   display: inline-block;
 }
+.container__nft .container__nft__p-background {
+  font-size: 280px;
+  color: #373740;
+  font-family: "Belgrano", serif;
+  position: absolute;
+  rotate: 90deg;
+  top: 210px;
+  left: 188px;
+}
 .container__nft .container__nft-img {
   position: absolute;
   bottom: 260px;
