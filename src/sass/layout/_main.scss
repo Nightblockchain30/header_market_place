@@ -3,25 +3,27 @@
     margin-right: 160px;
     .hero{
         position: relative;
-        margin-bottom: 74px;
+        margin-bottom: 78px;
         &__h1{
-            font-size: 70px;
+            font-size: 65px;
             font-family: $second-font;
-            font-weight: 400;
+            font-weight: 500;
             line-height: 96px;
-            max-width: 900px;
-            margin-bottom: 16px;
+            max-width: 930px;
+            margin-bottom: 18px;
             color: $black;
         }
         &__circle{
             position: absolute;
-            top: 5px;
-            left: 132px;
+            top: 12px;
+            left: 130px;
+            max-width: 245px;
+
         }
         &__p{
             font-size: 28px;
             color: $grey;
-            margin-bottom: 40px;
+            margin-bottom: 42px;
             span{
                 text-decoration: underline solid $red 15%
             }

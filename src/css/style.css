@@ -56,26 +56,27 @@ body {
 }
 .main__container .hero {
   position: relative;
-  margin-bottom: 74px;
+  margin-bottom: 78px;
 }
 .main__container .hero__h1 {
-  font-size: 70px;
+  font-size: 65px;
   font-family: "Belgrano", serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 96px;
-  max-width: 900px;
-  margin-bottom: 16px;
+  max-width: 930px;
+  margin-bottom: 18px;
   color: #2E2F38;
 }
 .main__container .hero__circle {
   position: absolute;
-  top: 5px;
-  left: 132px;
+  top: 12px;
+  left: 130px;
+  max-width: 245px;
 }
 .main__container .hero__p {
   font-size: 28px;
   color: #8E8E8E;
-  margin-bottom: 40px;
+  margin-bottom: 42px;
 }
 .main__container .hero__p span {
   text-decoration: underline solid #FA504D 15%;
@@ -136,11 +137,15 @@ body {
 .container__nft {
   position: relative;
   display: inline-block;
-  background-color: rgba(150, 136, 136, 0.961);
+}
+.container__nft .container__nft-img {
+  position: absolute;
+  bottom: 260px;
+  right: 110px;
 }
 .container__nft .container__nft-description {
   position: absolute;
-  top: 570px;
+  top: 500px;
   background-color: #FFFFFF;
   padding: 32px;
 }
@@ -153,7 +158,7 @@ body {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   align-items: left;
-  column-gap: 250px;
+  column-gap: 220px;
   padding-left: 16px;
 }
 .container__nft .container__nft-description .description__row1 .description__row1-grid p {
@@ -173,7 +178,7 @@ body {
 }
 .container__nft .container__nft-description .description__row2 a:nth-child(1) {
   background-color: #FA504D;
-  padding: 14px 95.5px;
+  padding: 14px 105.5px;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -181,10 +186,13 @@ body {
   text-decoration: none;
   font-weight: 600;
   color: #FA504D;
-  padding-right: 120px;
+  padding-right: 80px;
   font-size: 18px;
 }
 .container__nft .container__nft-numbers {
+  position: absolute;
+  top: 605px;
+  right: 148px;
   margin-top: 150px;
   display: flex;
   justify-content: center;
@@ -200,9 +208,16 @@ body {
 .container__nft .container__nft-numbers div P {
   color: #FFFFFF;
   text-align: center;
+  font-weight: 100;
+  font-size: 20px;
 }
 .container__nft .container__nft-numbers p span {
   color: #FA504D;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 36px;
+}
+
+.container__main__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
 }/*# sourceMappingURL=style.css.map */
