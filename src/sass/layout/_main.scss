@@ -5,7 +5,7 @@
         position: relative;
         margin-bottom: 78px;
         &__h1{
-            font-size: 65px;
+            font-size: 85px;
             font-family: $second-font;
             font-weight: 500;
             line-height: 96px;
@@ -33,7 +33,7 @@
             column-gap: 32px;
             .hero__buttons-left button{
                 display: inline-block;
-                background-color: red;
+                background-color: $red;
                 color: #FFFFFF;
                 padding: 16.5px 86.5px;
                 border: 0px;
@@ -84,10 +84,16 @@
         &-img1{
             grid-area: left;
             max-width: 400px;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
         &-img2{
             grid-area: right;
             max-width: 400px;
+            &:hover{
+                transform: scale(1.1);
+            }
 
         }
     }

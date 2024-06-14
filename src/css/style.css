@@ -31,7 +31,7 @@
 }
 .header__container .header__aside-ul {
   display: flex;
-  gap: 27px;
+  gap: 37px;
   list-style: none;
 }
 .header__container .header__aside-ul li a {
@@ -59,7 +59,7 @@ body {
   margin-bottom: 78px;
 }
 .main__container .hero__h1 {
-  font-size: 65px;
+  font-size: 85px;
   font-family: "Belgrano", serif;
   font-weight: 500;
   line-height: 96px;
@@ -87,7 +87,7 @@ body {
 }
 .main__container .hero .hero__butttons .hero__buttons-left button {
   display: inline-block;
-  background-color: red;
+  background-color: #FA504D;
   color: #FFFFFF;
   padding: 16.5px 86.5px;
   border: 0px;
@@ -130,9 +130,15 @@ body {
   grid-area: left;
   max-width: 400px;
 }
+.main__container .feature__content-img1:hover {
+  transform: scale(1.1);
+}
 .main__container .feature__content-img2 {
   grid-area: right;
   max-width: 400px;
+}
+.main__container .feature__content-img2:hover {
+  transform: scale(1.1);
 }
 
 .container__nft {
@@ -140,13 +146,14 @@ body {
   display: inline-block;
 }
 .container__nft .container__nft__p-background {
-  font-size: 280px;
+  font-size: 340px;
   color: #373740;
   font-family: "Belgrano", serif;
   position: absolute;
   rotate: 90deg;
-  top: 210px;
-  left: 188px;
+  top: 200px;
+  left: 175px;
+  font-weight: 400;
 }
 .container__nft .container__nft-img {
   position: absolute;
@@ -194,12 +201,20 @@ body {
   color: #FFFFFF;
   text-decoration: none;
 }
+.container__nft .container__nft-description .description__row2 a:nth-child(1):hover {
+  background-color: #2E2F38;
+  cursor: pointer;
+}
 .container__nft .container__nft-description .description__row2 a:nth-child(2) {
   text-decoration: none;
   font-weight: 600;
   color: #FA504D;
   padding-right: 80px;
   font-size: 18px;
+}
+.container__nft .container__nft-description .description__row2 a:nth-child(2):hover {
+  color: #2E2F38;
+  cursor: pointer;
 }
 .container__nft .container__nft-numbers {
   position: absolute;

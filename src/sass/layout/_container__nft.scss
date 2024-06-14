@@ -3,13 +3,14 @@
     display: inline-block;
     // background-color: rgba(150, 136, 136, 0.961);
     .container__nft__p-background{
-        font-size:280px ;
+        font-size:340px ;
         color: #373740;
         font-family: $second-font;
         position: absolute;
         rotate: 90deg;
-        top: 210px;
-        left: 188px;
+        top: 200px;
+        left: 175px;
+        font-weight: 400;
     }
     .container__nft-img{
         position: absolute;
@@ -57,6 +58,10 @@
                 padding: 14px 105.5px;
                 color: #FFFFFF;
                 text-decoration: none;
+                &:hover{
+                    background-color: $black;
+                    cursor: pointer;
+                }
             }
             & a:nth-child(2){
                 text-decoration: none;
@@ -64,6 +69,10 @@
                 color: $red;
                 padding-right: 80px;
                 font-size: 18px;
+                &:hover{
+                    color: $black;
+                    cursor: pointer;
+                }
             }
         }
     }
