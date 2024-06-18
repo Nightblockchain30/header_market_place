@@ -1,43 +1,49 @@
-.container__nft{
+.container__nft {
     position: relative;
     display: inline-block;
+
     // background-color: rgba(150, 136, 136, 0.961);
-    .container__nft__p-background{
-        font-size:340px ;
+    .container__nft__p-background {
+        font-size: 280px;
         color: #373740;
-        font-family: $second-font;
+        font-family: "Belgrano", serif;
         position: absolute;
         rotate: 90deg;
-        top: 200px;
+        top: 210px;
         left: 175px;
         font-weight: 400;
     }
-    .container__nft-img{
+
+    .container__nft-img {
         position: absolute;
         bottom: 260px;
         right: 110px;
     }
-    
-    .container__nft-description{
+
+    .container__nft-description {
         position: absolute;
         top: 500px;
         background-color: #FFFFFF;
         padding: 32px;
-        .description__row1{
+
+        .description__row1 {
             display: flex;
             align-items: center;
-            .description__row1-grid{
+
+            .description__row1-grid {
                 display: grid;
                 grid-template-rows: 1fr 1fr;
                 grid-template-columns: 1fr 1fr;
                 align-items: left;
                 column-gap: 220px;
                 padding-left: 16px;
-                p{
+
+                p {
                     font-size: 18px;
-                    color:$grey;
+                    color: $grey;
                 }
-                p.bold{
+
+                p.bold {
                     font-weight: 600;
                     font-size: 24px;
                     color: $black;
@@ -46,37 +52,54 @@
             }
         }
 
-        .description__row2{
+        .description__row2 {
             border-top: 1px solid black;
             padding-top: 30px;
             margin-top: 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            & a:nth-child(1){
+
+            & a:nth-child(1) {
                 background-color: $red;
                 padding: 14px 105.5px;
                 color: #FFFFFF;
                 text-decoration: none;
-                &:hover{
+
+                &:hover {
                     background-color: $black;
                     cursor: pointer;
                 }
+
+                &:active {
+                    background-color: $red;
+                    cursor: pointer;
+                }
+
+
             }
-            & a:nth-child(2){
+
+            & a:nth-child(2) {
                 text-decoration: none;
                 font-weight: 600;
                 color: $red;
                 padding-right: 80px;
                 font-size: 18px;
-                &:hover{
+
+                &:hover {
                     color: $black;
+                    cursor: pointer;
+                }
+
+                &:active {
+                    color: $red;
                     cursor: pointer;
                 }
             }
         }
     }
-    .container__nft-numbers{
+
+    .container__nft-numbers {
         position: absolute;
         top: 605px;
         right: 148px;
@@ -85,12 +108,14 @@
         justify-content: center;
         align-content: center;
         column-gap: 72px;
-        div{
+
+        div {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 10px;
-            P{
+
+            P {
                 color: #FFFFFF;
                 text-align: center;
                 font-weight: 100;
@@ -98,7 +123,7 @@
             }
         }
 
-        p span{
+        p span {
             color: $red;
             font-weight: 600;
             font-size: 36px;

@@ -1,36 +1,64 @@
-.header__container{
+.header__container {
     margin: 36px 160px 127px 160px;
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    .header__nav{
+
+    .header__nav {
         padding-right: 490px;
-        .header__ul{
+
+        .header__ul {
             @include formart_list();
-            li a{
+
+            li a {
                 text-decoration: none;
                 font-size: 18px;
                 color: $black;
-                &:hover{
+
+                &:hover {
                     color: $red;
+                }
+
+                &:active {
+                    color: $black;
                 }
             }
         }
     }
-    .header__aside{
-        &-ul{
+
+    .header__aside {
+        &-ul {
             display: flex;
             gap: 37px;
             list-style: none;
-            li a{
-                text-decoration: none;
-                font-size: 18px;
-                color:#FFFFFF;
-            }
-            li a.red {
-                background-color: $red;
-                padding:15.5px 39px;
+
+            li {
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &.red {
+                        background-color: $red;
+                        padding: 15.5px 39px;
+                        color: white;
+                        text-decoration: none;
+
+                        &:hover {
+                            background-color: black;
+                            color: white;
+
+                        }
+
+                        &:active {
+                            color: white;
+                            background-color: $red;
+
+                        }
+
+                    }
+                }
+
 
             }
         }

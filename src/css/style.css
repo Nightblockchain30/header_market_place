@@ -29,19 +29,31 @@
 .header__container .header__nav .header__ul li a:hover {
   color: #FA504D;
 }
+.header__container .header__nav .header__ul li a:active {
+  color: #2E2F38;
+}
 .header__container .header__aside-ul {
   display: flex;
   gap: 37px;
   list-style: none;
 }
 .header__container .header__aside-ul li a {
+  color: white;
   text-decoration: none;
-  font-size: 18px;
-  color: #FFFFFF;
 }
 .header__container .header__aside-ul li a.red {
   background-color: #FA504D;
   padding: 15.5px 39px;
+  color: white;
+  text-decoration: none;
+}
+.header__container .header__aside-ul li a.red:hover {
+  background-color: black;
+  color: white;
+}
+.header__container .header__aside-ul li a.red:active {
+  color: white;
+  background-color: #FA504D;
 }
 
 body {
@@ -52,18 +64,18 @@ body {
 
 .main__container {
   margin-left: 160px;
-  margin-right: 160px;
+  margin-right: 90px;
 }
 .main__container .hero {
   position: relative;
   margin-bottom: 78px;
 }
 .main__container .hero__h1 {
-  font-size: 85px;
+  font-size: 72px;
   font-family: "Belgrano", serif;
   font-weight: 500;
   line-height: 96px;
-  max-width: 930px;
+  max-width: 900px;
   margin-bottom: 18px;
   color: #2E2F38;
 }
@@ -80,6 +92,11 @@ body {
 }
 .main__container .hero__p span {
   text-decoration: underline solid #FA504D 15%;
+  transition: width 2s;
+}
+.main__container .hero__p span:hover {
+  width: 10px;
+  height: 3px;
 }
 .main__container .hero .hero__butttons {
   display: flex;
@@ -98,6 +115,9 @@ body {
   background-color: #2E2F38;
   cursor: pointer;
 }
+.main__container .hero .hero__butttons .hero__buttons-left button:active {
+  background-color: #FA504D;
+}
 .main__container .hero .hero__butttons .hero__buttons-right {
   display: flex;
   column-gap: 6px;
@@ -110,6 +130,10 @@ body {
 .main__container .hero .hero__butttons .hero__buttons-right a:hover {
   cursor: pointer;
   color: #FA504D;
+}
+.main__container .hero .hero__butttons .hero__buttons-right a:active {
+  cursor: pointer;
+  color: #2E2F38;
 }
 .main__container .feature__content {
   max-width: 900px;
@@ -132,6 +156,7 @@ body {
 }
 .main__container .feature__content-img1:hover {
   transform: scale(1.1);
+  cursor: zoom-in;
 }
 .main__container .feature__content-img2 {
   grid-area: right;
@@ -139,6 +164,7 @@ body {
 }
 .main__container .feature__content-img2:hover {
   transform: scale(1.1);
+  cursor: zoom-in;
 }
 
 .container__nft {
@@ -146,12 +172,12 @@ body {
   display: inline-block;
 }
 .container__nft .container__nft__p-background {
-  font-size: 340px;
+  font-size: 280px;
   color: #373740;
   font-family: "Belgrano", serif;
   position: absolute;
   rotate: 90deg;
-  top: 200px;
+  top: 210px;
   left: 175px;
   font-weight: 400;
 }
@@ -205,6 +231,10 @@ body {
   background-color: #2E2F38;
   cursor: pointer;
 }
+.container__nft .container__nft-description .description__row2 a:nth-child(1):active {
+  background-color: #FA504D;
+  cursor: pointer;
+}
 .container__nft .container__nft-description .description__row2 a:nth-child(2) {
   text-decoration: none;
   font-weight: 600;
@@ -214,6 +244,10 @@ body {
 }
 .container__nft .container__nft-description .description__row2 a:nth-child(2):hover {
   color: #2E2F38;
+  cursor: pointer;
+}
+.container__nft .container__nft-description .description__row2 a:nth-child(2):active {
+  color: #FA504D;
   cursor: pointer;
 }
 .container__nft .container__nft-numbers {

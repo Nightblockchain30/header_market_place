@@ -1,61 +1,81 @@
-.main__container{
+.main__container {
     margin-left: 160px;
-    margin-right: 160px;
-    .hero{
+    margin-right: 90px;
+
+    .hero {
         position: relative;
         margin-bottom: 78px;
-        &__h1{
-            font-size: 85px;
-            font-family: $second-font;
+
+        &__h1 {
+            font-size: 72px;
+            font-family: "Belgrano", serif;
             font-weight: 500;
             line-height: 96px;
-            max-width: 930px;
+            max-width: 900px;
             margin-bottom: 18px;
-            color: $black;
+            color: #2E2F38;
         }
-        &__circle{
+
+        &__circle {
             position: absolute;
             top: 14px;
             left: 150px;
             max-width: 250px;
 
         }
-        &__p{
+
+        &__p {
             font-size: 28px;
             color: $grey;
             margin-bottom: 42px;
-            span{
-                text-decoration: underline solid $red 15%
+
+            span {
+                text-decoration: underline solid $red 15% transition: width 2s, height 4s;
             }
         }
-        .hero__butttons{
+
+        .hero__butttons {
             display: flex;
             column-gap: 32px;
-            .hero__buttons-left button{
+
+            .hero__buttons-left button {
                 display: inline-block;
                 background-color: $red;
                 color: #FFFFFF;
                 padding: 16.5px 86.5px;
                 border: 0px;
                 font-size: 18px;
-                &:hover{
+
+                &:hover {
                     transform: scale(1.1);
                     background-color: $black;
                     cursor: pointer;
                 }
 
+                &:active {
+                    background-color: $red;
+                }
+
 
             }
-            .hero__buttons-right{
+
+            .hero__buttons-right {
                 display: flex;
                 column-gap: 6px;
                 align-items: center;
+
                 a {
                     min-width: 90px;
                     color: $black;
-                    &:hover{
+
+                    &:hover {
                         cursor: pointer;
                         color: $red;
+                    }
+
+                    &:active {
+                        cursor: pointer;
+                        color: $black;
                     }
                 }
 
@@ -65,14 +85,16 @@
 
 
     }
-    .feature__content{
+
+    .feature__content {
         max-width: 900px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "head head"
-                             "left right";
+            "left right";
         margin-bottom: 57px;
-        &-h3{
+
+        &-h3 {
             grid-area: head;
             font-size: 32px;
             font-weight: 400;
@@ -81,22 +103,27 @@
             color: $black;
 
         }
-        &-img1{
+
+        &-img1 {
             grid-area: left;
             max-width: 400px;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.1);
+                cursor: zoom-in;
             }
         }
-        &-img2{
+
+        &-img2 {
             grid-area: right;
             max-width: 400px;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.1);
+                cursor: zoom-in;
             }
 
         }
     }
 
 }
-
